@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Guilherme Bernardo Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Guilherme Bernardo Portfolio">
+    <meta name="keywords" content=" responsive, resume, jquery, css3, bootstrap, javascript portfolio">
+    <meta name="author" content="Guilherme Bernardo">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\transition-animations.css">
+    <link rel="stylesheet" href="css\owl.carousel.css">
+    <link rel="stylesheet" href="css\magnific-popup.css">
+    <link rel="stylesheet" href="css\animate.css">
+    <link rel="stylesheet" href="css\main.css" type="text/css">
+
+ 
+    
+
+
+    <script src="js\jquery-2.1.3.min.js"></script>
+    <script src="js\modernizr.custom.js"></script>
+
+  </head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="my-photo">
+          <img src="images\my_photo.png" alt="image">
+          <div class="mask"></div>
+        </div>
+
+        <div class="site-title-block">
+          <h1 class="site-title">Guilherme Bernardo</h1>
+          <p class="site-description">Web Developer</p>
+        </div>
+
+        <!-- Navigation & Social buttons -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#home" data-animation="58" data-goto="1">Home</a><!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
+            </li>
+            <!-- /About Me Subpage link -->
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#about_me" data-animation="59" data-goto="2">Sobre mim</a>
+            </li>
+            <!-- /About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#resume" data-animation="61" data-goto="3">Portfólio</a>
+            </li>
+
+          </ul>
+          <!-- /Main menu -->
+
+          <!-- Social buttons -->
+          <ul class="social-links">
+            <li><a class="tip social-button" href="https://www.linkedin.com/in/guilherme-bernardo-silva-789217194/" title="Linkedin"><i class="fa fa-linkedin"><img src="images/button/linkedin.png"></i></a></li>
+            <li><a class="tip social-button" href="https://github.com/gui25" title="Github"><i class="fa fa-github"></i><img src="images/button/github.png"></a></li>
+            <li><a class="tip social-button"  href="mailto:gui25ber@gmail.com" title="Gmail" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&to=gui25ber@gmail.com')"><i class="fa fa-gmail"></i><img src="images/button/gmail.png"></a></li>
+          </ul>
+          <!-- /Social buttons -->
+        </div>
+        <!-- Navigation & Social buttons -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Guilherme Bernardo</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page pt-page-1 section-with-bg section-paddings-0" style="background-image: url(images/home_page_bg_2.jpg);" data-id="home">
+              <div class="home-page-block-bg">
+                <div class="mask"></div>
+              </div>
+              <div class="home-page-block">
+                <div class="v-align">
+                  <h2>Guilherme Bernardo</h2>
+                  <div id="rotate" class="text-rotate">
+                    <div>
+                      <p class="home-page-description">Web Developer</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Backend-developer</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Frontend-developer</p>
+                    </div>
+                  </div>
+
+                  <div class="block end" style="text-align: center">
+                    <ul class="info-list">
+                      <li><span class="title">Age</span><span class="value">17</span></li>
+                      <li><span class="title">Address</span><span class="value">Cachoeirinha,&nbsp Rio Grande do Sul,&nbsp Brasil</span></li>
+                      <li><span class="title">e-mail</span><span class="value">gui25ber@gmail.com</span></li>
+                      <li><span class="title">Phone</span><span class="value">+55 51 98136-4498</span></li>
+                      <li><span class="title">Linkedin</span><a class="value" href="https://www.linkedin.com/in/guilherme-bernardo-silva-789217194/">Click Here</a></li>
+                      <li><span class="title">Github</span><a class="value" href="https://github.com/gui25">Click Here</a></li>
+                      <li><span class="title">Freelance</span><span class="value available">Diponível</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- About Me Subpage -->
+            <section class="pt-page pt-page-2" data-id="about_me">
+              <div class="section-title-block">
+                <h2 class="section-title">Sobre Mim</h2>
+                <h5 class="section-description">Creative, Frontend-Developer, Backend-Developer</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="general-info">
+                    <h3>Eu sou um Desenvolvedor Web</h3>
+                    <p>Minha paixão é programar e desenvolver aplicações,&nbsp tenho conhecimento amplo em diversas linguagens de programação,&nbsp como PHP,&nbsp Javascript,&nbsp Java dentre outras.&nbsp Amo estudar e sempre adquirir novos conhecimentos.</p>
+                    <p>Estou aberto para criações de projetos diversos e sou capaz de solucionar diversos problemas ou criar melhorias atráves dos meus conhecimentos para quem precicar.&nbsp Posso elaborar e criar sites completos, até sistemas mais complexos em php por exemplo, Estou aberto a propostas nas minhas redes sociais.</p>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Comentários</h3>
+                  </div>
+                  <div class="testimonials owl-carousel">
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"O Guilherme é uma pessoa incrivel, um ótimo desenvolvedor esforçado, procura e pesquisa o quanto for necessário pra encontrar uma solução para algo a ser desenvolvido."</p>
+                        </div>
+                      </div>            
+                      <!-- /Testimonial Content -->  
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images\testimonials\testimonila_photo_2.png" alt="">
+                        </div>              
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author" >José Arthur</p>
+                          <p class="testimonial-firm">Freelancer</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->               
+                    </div>
+                    <!-- End of Testimonial 2 -->
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item" style="width:100%">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"Lida com competência em diferentes situações, conhece bem de lógica de programação, sabe ouvir propostas e elaborar criações, sempre pesquisa muito por soluções eficientes e gera resultados de qualidade."</p>
+                        </div>
+                      </div>            
+                      <!-- /Testimonial Content -->  
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images\testimonials\testimonial_photo_1.png" alt="">
+                        </div>              
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">Cauê Antunes</p>
+                          <p class="testimonial-firm">Empresa de Segurança</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->               
+                    </div>
+                    <!-- End of Testimonial 2 -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Services block -->
+              <div class="block-title">
+                <h3>Services</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images\service\web_development.png" alt="Development img">
+                      <h4>Web Development</h4>
+                      <p>Sou capaz de criar diversos sites e aplicações para diferentes necessidades.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images\service\web_design.png" alt="Design img">
+                      <h4>Web Design</h4>
+                      <p>Tenho um bom conhecimento em design com uma boa base para desenvolver aplicações bonitas e atrativas.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images\service\sql.png" alt="E-Commerce">
+                      <h4>Database SQL</h4>
+                      <p>Domino toda parte de banco de dados assim como apis que pode vir a ser utilizado em Projetos mais complexos.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images\service\inovation.png" alt="Management">
+                      <h4>Inovation</h4>
+                      <p>Sempre buscar estudar e desenvolver diferentes aplicações com metodos novos é algo que me deixa muito feliz.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Services block -->
+
+             
+
+            
+            </section>
+            <!-- End of About Me Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page pt-page-3" data-id="resume">
+              <div class="section-title-block">
+                <h2 class="section-title">Portfólio</h2>
+                <h5 class="section-description">3 Anos de Experiência</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Educação</h3>
+                  </div>
+                  <div class="timeline">
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2019-2020</h5>
+                      <h4 class="event-name">Curso Técnico Informatica</h4>
+                      <span class="event-description">Escola Técnica Mesquita</span>
+                      <p>Um curso que me ensinou a Base logica da programação assim como conceitos mais avançados, desenvolvendo meus conhecimentos em diversas linguagens.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2020</h5>
+                      <h4 class="event-name">Curso PHP</h4>
+                      <span class="event-description">Programming Hub</span>
+                      <p>Nº da credencial: <strong>1597263761708</strong> <br/> Cheque a credencial: <a href="https://programminghub.io/certificates">https://programminghub.io/certificates</a></p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2020</h5>
+                      <h4 class="event-name">Curso Javascript Advanced</h4>
+                      <span class="event-description">Programming Hub</span>
+                      <p>Nº da credencial: <strong>1594706451228</strong> <br/> Cheque a credencial: <a href="https://programminghub.io/certificates">https://programminghub.io/certificates</a></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Experiência</h3>
+                  </div>
+                  <div class="timeline">
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2019</h5>
+                      <h4 class="event-name">Snake Game</h4>
+                      <span class="event-description">Game Project</span>
+                      <p>Projeto desenvolvido com Javascript. <br/> Acesse: <a href="https://gui25.github.io/lab/snakegame/">Snake Game</a></p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2020</h5>
+                      <h4 class="event-name">3D Animation</h4>
+                      <span class="event-description">Project Three.js</span>
+                      <p>Animação usando framework de criação de modelos 3D em Javascript. <br/> Acesse: <a href="https://gui25.github.io/lab/tube/">3D Animation</a></p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2018</h5>
+                      <h4 class="event-name">Experimentos</h4>
+                      <span class="event-description">Meu Lab</span>
+                      <p>É um dos repositorios mais antigo onde eu constantemente desenvolvo algo diferente, utilizando recursos e metodos novos. <br/> Acesse: <a href="https://gui25.github.io/lab/lab/">Meus Experimentos</a></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Development Skills</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>Web Development</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div>
+
+                    <h4>Web Design</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-2"></div>
+                    </div>
+
+                    <h4>SQL</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div> 
+                  </div>
+
+                  <div class="block-title">
+                    <h3>Coding Skills</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>HML5</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-4"></div>
+                    </div>
+
+                    <h4>CSS3</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-5"></div>
+                    </div>
+
+                    <h4>jQuery</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+
+                    <h4>Javascript</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-4"></div>
+                    </div>
+
+                    <h4>PHP</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-4"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  
+            </div>
+              </div>
+            </section>
+            <!-- End Resume Subpage -->
+
+
+           
+
+            
+
+            
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+
+    <script data-cfasync="false" src="..\..\..\..\cdn-cgi\scripts\5c5dd728\cloudflare-static\email-decode.min.js"></script><script src="js\bootstrap.min.js"></script>
+    <script src="js\page-transition.js"></script>
+    <script src="js\imagesloaded.pkgd.min.js"></script>
+    <script src="js\validator.js"></script>
+    <script src="js\jquery.shuffle.min.js"></script>
+    <script src="js\masonry.pkgd.min.js"></script>
+    <script src="js\owl.carousel.min.js"></script>
+    <script src="js\jquery.magnific-popup.min.js"></script>
+    <script src="js\jquery.hoverdir.js"></script>
+    <script src="js\main.js"></script>
+
+  </body>
+</html>
